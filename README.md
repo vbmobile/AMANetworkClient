@@ -1,3 +1,15 @@
+> ⚠️ **This repository has been archived and superseded.**
+>
+> Development has moved to **[vbmobile/AMANetworkClient](https://github.com/vbmobile/AMANetworkClient)**.
+>
+> - **New SPM URL:** `https://github.com/vbmobile/AMANetworkClient`
+> - **Last frozen version here:** `6.0.1`
+> - **Latest version:** see the new repo's [releases page](https://github.com/vbmobile/AMANetworkClient/releases).
+>
+> Consumers should update their `Package.swift` `.package(url:)` to the new URL. See the new repo's README for migration guidance.
+>
+> ---
+
 # ⚠️ VBNetworkClient - INTERNAL USE ONLY ⚠️
  
 **Important Notice:**
