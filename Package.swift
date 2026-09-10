@@ -1,10 +1,10 @@
-// swift-tools-version: 5.10
+// swift-tools-version: 6.2
 import PackageDescription
 
 let package = Package(
     name: "AMANetworkClient",
     platforms: [
-        .iOS(.v15)
+        .iOS(.v13)
     ],
     products: [
         .library(
@@ -14,9 +14,9 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "AMANetworkClient",
-            url: "https://vbmobileidstorage.blob.core.windows.net/ios/AMANetworkClient/AMANetworkClient-6.0.1.zip",
-            checksum: "474a1af4916c333f6a85279446b0c5b7d3e06ee32e3bfdd3e6da1086b7f1c1ec"
+            url: "https://vbmobileidstorage.blob.core.windows.net/ios/AMANetworkClient/AMANetworkClient-7.0.0.zip",
+            checksum: "43bf67aa16e1b532f864a71c1a9843249d43970cccaeca06d2e99025503de3c8"
         )
     ],
-    swiftLanguageVersions: [.v5]
+    swiftLanguageModes: [.v6]
 )
