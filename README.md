@@ -21,3 +21,8 @@
 * The framework is experimental, API and behavior may change without notice.
  
 **By integrating or using this framework, you acknowledge that you have read and understood this notice.**
+
+**Version guidance:**
+
+* Do not use 7.0.0. Its published archive does not match the checksum declared in `Package.swift` and lacks the Swift module files, so it cannot be resolved or imported.
+* Use 7.0.4 or later, for example `.upToNextMinor(from: "7.0.4")`.
